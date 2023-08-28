@@ -24,10 +24,12 @@ body {
   border-radius: 50%;
   position: absolute;
   mix-blend-mode:difference;
-  transition: all linear .3s;
+  transition: all ease .2s;
+  transform: translate(-50%, -50%);
 }
 #main h1 {
   font-size: 12vw;
   font-weight: 900;
   cursor: pointer;
+  padding: 20px;
 }

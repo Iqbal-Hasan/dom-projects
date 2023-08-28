@@ -2,9 +2,9 @@ const main = document.querySelector("#main");
 const cursor = document.querySelector(".cursor");
 const iqbal = document.querySelector("#iqbal");
 const hasan = document.querySelector("#hasan");
-main.addEventListener("mousemove", function (dets) {
-  cursor.style.left = dets.x -10 + "px";
-  cursor.style.top = dets.y -10 + "px";
+window.addEventListener("mousemove", function (dets) {
+  cursor.style.left = dets.pageX + "px";
+  cursor.style.top = dets.pageY + "px";
 });
 function newCursor(somthing) {
   somthing.addEventListener("mouseover", function () {
