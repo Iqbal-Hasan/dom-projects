@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(79, 110, 167);
+}
+#card {
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  padding: 10px 10px 30px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#card img {
+  width: 100%;
+  height: 50%;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+#card h1{
+    font-size: 5vw;
+    font-weight: 600;
+}
+#card h5{
+    font-size: 3vw;
+    color: red;
+    font-weight: 500;
+}
+#card button{
+    font-size: 20px;
+    display: flex;
+    gap: 15px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    background-color: #2374E1;
+    color: white;
+    border: transparent;
+    cursor: pointer;
+}
