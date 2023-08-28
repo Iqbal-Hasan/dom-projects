@@ -1,6 +1,12 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: poppins;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
 }
+/* translate: none;
+rotate: none;
+scale: none;
+will-change: auto;
+transform: translate(903.206px, 224.948px) rotate(165.775deg)
+  scale(1.00032, 0.999681); */
