@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+  text-transform: uppercase;
+}
+body {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+p {
+  font-size: 20px;
+  line-height: 20px;
+}
+.div {
+  padding: 0;
+  height: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  /* overflow: hidden; */
+}
+.second {
+  position: relative;
+  transform-origin: left center;
+  transition: all 0.3s ease;
+  transform: rotate(20deg);
+}
+.first {
+  transition: all 0.3s ease;
+  transform-origin: right center;
+  
+}
+.div:hover .second {
+    transform: rotate(0) translateY(-20px);
+}
+.div:hover .first {
+    transform: rotate(20deg) translateY(-20px);
+}
